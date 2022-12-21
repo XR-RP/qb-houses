@@ -22,12 +22,14 @@ local Translations = {
         ["remove_key_from"] = "%{firstname} %{lastname} har blivit av med nycklarna",
         ["already_keys"] = "Den här personen har redan nycklarna till huset!",
         ["something_wrong"] = "Något gick fel, försök igen!",
+        ["nobody_at_door"] = 'Det finns ingen vid dörren...'
     },
     success = {
         ["unlocked"] = "Huset är olåst!",
         ["home_invasion"] = "Dörren är öppen.",
         ["lock_invasion"] = "Du låste huset igen..",
-        ["recieved_key"] = "Du har tagit emot nycklarna till %{value}!"
+        ["recieved_key"] = "Du har tagit emot nycklarna till %{value}!",
+        ["house_purchased"] = "Du har köpt huset!"
     },
     info = {
         ["door_ringing"] = "Någon plingar på dörren!",
@@ -45,6 +47,7 @@ local Translations = {
     },
     menu = {
         ["house_options"] = "Husalternativ",
+        ["close_menu"] = "⬅ Stäng Meny",
         ["enter_house"] = "Gå in i ditt hus",
         ["give_house_key"] = "Ge husnyckel",
         ["exit_property"] = "Lämna fastighet",
@@ -63,6 +66,11 @@ local Translations = {
         ["characters"] = "Karaktärer",
         ["enter_unlocked_house"] = "Gå in i olåst hus",
         ["lock_door_police"] = "Lås dörr"
+    },
+    target = {
+        ["open_stash"] = "[E] Öppna Förråd",
+        ["outfits"] = "[E] Byt Kläder",
+        ["change_character"] = "[E] Byt Karaktär",
     },
     log = {
         ["house_created"] = "Hus skapat:",
